@@ -1,7 +1,10 @@
 import './style.css';
-import { functionOne } from './contact.js';
+import * as contactPage from './contact-page-creation';
+import * as menuPage from './menu-page-creation';
+import * as initialPage from './initial-page-creation';
 /* npx webpack | npx webpack --watch | for the terminal*/
 
 console.log('module 1 test');
 
-functionOne();
+contactPage .functionOne();
+contactPage .functionTwo();
