@@ -63,6 +63,7 @@ const initialPage = (() => {
     buttonsBox.appendChild(contactPageButtonCreator);
 })();
 
+
 const Render = (() => {
     /* console.log(por) */
 })();
