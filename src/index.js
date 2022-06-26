@@ -2,6 +2,7 @@ import './style.css';
 import * as contactPage from './pages/contact-page-creation';
 import * as menuPage from './pages/menu-page-creation';
 import * as initialPage from './pages/initial-page-creation';
+
 /* npx webpack | npx webpack --watch | for the terminal*/
 
 const domManipulation = (() => {
@@ -30,16 +31,6 @@ const domManipulation = (() => {
     clearDOM();
     contactPage.contactPageRender();  
     })
-    
-    
+     
     return {}
  })();
-
-
-
-/* function clearDOM() {
-    const staticNodeList = 
-   for(let i = 1 ; i < content.children.length ; i++) {
-       content.children[i].remove();
-   }
-} */

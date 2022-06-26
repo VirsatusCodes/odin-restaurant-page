@@ -5,7 +5,6 @@ const  menuItemFactory = (itemName, itemDescription, image) => {
     return {itemName, itemDescription, image}   
   };
 
-
 function menuPageRender(){
     const menuItems = [];
     /* having this would mean making an interface for the restaurant
@@ -37,5 +36,5 @@ function menuPageRender(){
       box.appendChild(menuItemPicture);
       menuItemPicture.src= menuItems[i].image;
   };
-  console.log(lasagna.image)
+
 }
