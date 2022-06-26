@@ -15,19 +15,18 @@ const domManipulation = (() => {
 
     const homeButton = document.querySelector('#initial-page');
     homeButton.addEventListener('click', () => {
-    console.log('test');
     clearDOM();
     initialPage.initialPageRender();   
     })
 
     const menuButton = document.querySelector('#menu-page');
     menuButton.addEventListener('click', () => {
-    console.log('test');
+    clearDOM();
+    menuPage.menuPageRender(); 
     })
 
     const contactButton = document.querySelector('#contact-page');
     contactButton.addEventListener('click', () => {
-    console.log('test');
     clearDOM();
     contactPage.contactPageRender();  
     })
